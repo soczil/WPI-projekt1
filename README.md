@@ -16,20 +16,21 @@ Polecenie:
 
 
 Napisz program umożliwiający grę w Palindrom dwóm graczom.
+
 Program, w pętli:
 
-pisze diagram aktualnego stanu planszy i wskazuje, który gracz ma wykonać ruch;
-próbuje wczytać polecenie gracza;
-jeśli się nie udało, bo dane się skończyły, kończy pracę;
-jeśli wczytał polecenie błędne, ignoruje je;
-jeśli wczytał polecenie wykonania ruchu, wykonuje je;
-jeśli wczytał polecenie przerwania gry, kończy pracę.
+- pisze diagram aktualnego stanu planszy i wskazuje, który gracz ma wykonać ruch;
+- próbuje wczytać polecenie gracza;
+- jeśli się nie udało, bo dane się skończyły, kończy pracę;
+- jeśli wczytał polecenie błędne, ignoruje je;
+- jeśli wczytał polecenie wykonania ruchu, wykonuje je;
+- jeśli wczytał polecenie przerwania gry, kończy pracę.
 
 Pętla kończy się, gdy:
 
-skończą się dane, lub
-program dostanie polecenie przerwania gry, lub
-jeden z graczy wygra.
+- skończą się dane, lub
+- program dostanie polecenie przerwania gry, lub
+- jeden z graczy wygra.
 
 Jeśli jeden z graczy wygra, program, na zakończenie pracy, pisze diagram końcowego stanu planszy i informuje, kto wygrał.
 
@@ -52,9 +53,9 @@ Na wyjściu programu jest ciąg diagramów planszy. Po każdym diagramie jest wi
 
 Diagram opisuje pole planszy za pomocą znaku
 
-'-' gdy pole jest puste;
-'1' gdy na polu jest pion gracza Pierwszego;
-'2' gdy na polu jest pion gracza Drugiego.
+- '-' gdy pole jest puste;
+- '1' gdy na polu jest pion gracza Pierwszego;
+- '2' gdy na polu jest pion gracza Drugiego.
 
 Przed każdym znakiem opisującym pole jest spacja.
 Opisy pól są pogrupowane w wiersze, a w wierszu uporządkowane w kolejności kolumn od a do h.
