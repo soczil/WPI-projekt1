@@ -52,9 +52,9 @@ Na wyjściu programu jest ciąg diagramów planszy. Po każdym diagramie jest wi
 
 Diagram opisuje pole planszy za pomocą znaku
 
-- gdy pole jest puste;
-1 gdy na polu jest pion gracza Pierwszego;
-2 gdy na polu jest pion gracza Drugiego.
+'-' gdy pole jest puste;
+'1' gdy na polu jest pion gracza Pierwszego;
+'2' gdy na polu jest pion gracza Drugiego.
 
 Przed każdym znakiem opisującym pole jest spacja.
 Opisy pól są pogrupowane w wiersze, a w wierszu uporządkowane w kolejności kolumn od a do h.
